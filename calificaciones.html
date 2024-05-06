@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calificaciones</title>
+</head>
+<body>
+    <script>
+        var c=prompt("Escribe un numero del 0 al 10")
+        if(c>=0 && c<=5){
+            document.write("REPROBADO")
+        }else{
+            if(c==6){
+                document.write("SUFICIENTE")
+            }else{
+                if(c==7){
+                    document.write("REGULAR")
+                }else{
+                    if(c==8 || c==9){
+                        document.write("NOTABLE")
+                    }else{
+                        if(c==10){
+                            document.write("EXCELENTE")
+                        }else{
+                            document.write("SOLO INTRODUCIR NÚMEROS ENTEROS DE 0 a 10")
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
